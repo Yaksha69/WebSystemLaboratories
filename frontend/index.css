@@ -1,0 +1,27 @@
+.inventorytable {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.pagination .page-link {
+    color: #000000 !important;  /* Brown color for text */
+    border-color: #000000 !important;  /* Brown border */
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #000000 !important;  /* Brown background for active page */
+    color: black !important;  /* White text for active page */
+    border-color: #000000 !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #b50000 !important;  /* Lighter brown on hover */
+    color: black !important;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #000000 !important;  /* Lighter brown for disabled arrows */
+    border-color: #000000 !important;
+}
